@@ -91,12 +91,12 @@
     overflow: hidden
     width: 100%
     height: 0
-    padding-bottom: 45%
+    padding-bottom: 42%
 .icons
  overflow: hidden
  height: 0
  width: 100%
- padding-bottom: 45%
+ padding-bottom: 42%
  .icon
  	position: relative
  	float: left
