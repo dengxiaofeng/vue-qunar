@@ -41,7 +41,6 @@
       })
     },
     mounted(){
-      console.log("kk")
     },
     computed: {
       swiper() {
