@@ -97,6 +97,7 @@
  height: 0
  width: 100%
  padding-bottom: 42%
+ margin-top: .1rem
  .icon
  	position: relative
  	float: left
