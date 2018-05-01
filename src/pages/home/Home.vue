@@ -1,15 +1,22 @@
 <template>
-	<home-header></home-header>
+	<div>
+		<home-header></home-header>
+	    <home-swiper></home-swiper>
+	</div>
 </template>
 
 <script type="text/ecmascript-6">
-    import HomeHeader from './compnents/Header'
+    import HomeHeader from './components/Header'
+    import HomeSwiper from './components/Swiper'
 	export default {
 		name: 'Home',
 		components: {
-			HomeHeader
+			HomeHeader,
+			HomeSwiper
 		}
 	}
 </script>
 
-<style scoped lang="stylus" rel="stylesheet/stylus"></style>
+<style scoped lang="stylus" rel="stylesheet/stylus">
+	
+</style>
