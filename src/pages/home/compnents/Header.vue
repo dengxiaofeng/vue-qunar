@@ -17,7 +17,7 @@
 	  height: .86rem
 	  line-height: .86rem
 	  background: $bgColor
-	  color: #fff
+	  color: $color
 	  .header-left
 	   	width: .64rem
 	   	float: left
@@ -31,7 +31,7 @@
 	  	margin-top: .12rem
 	  	margin-left: .2rem
 	  	padding-left: .2rem
-	  	background: #fff
+	  	background: $color
 	  	border-radius: .1rem
 	  	color: #ccc
 	  .header-right
