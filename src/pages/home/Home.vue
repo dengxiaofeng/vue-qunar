@@ -1,12 +1,12 @@
 <template>
-	<div>Hello World</div>
+	<home-header></home-header>
 </template>
 
 <script type="text/ecmascript-6">
     import HomeHeader from './compnents/Header'
 	export default {
 		name: 'Home',
-		compnents: {
+		components: {
 			HomeHeader
 		}
 	}
