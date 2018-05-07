@@ -42,10 +42,23 @@
        	  	default() {
        	  		return []
        	  	}
+       	  },
+       	  letter: {
+       	  	type: String,
+       	  	default() {
+       	  		return ''
+       	  	}
        	  }
        },
        mounted () {
           this.scroll =new Bscroll(this.$refs.wrapper)
+       },
+       watch: {
+       	  letter() {
+             console.log(this.letter)
+             var element = this.$refs[this.letter][0]
+             this.scroll.scrollToElement(element)
+       	  }
        }
 	}
 </script>
